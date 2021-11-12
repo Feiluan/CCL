@@ -1,0 +1,34 @@
+body{
+  background: url(https://live.staticflickr.com/65535/48857551358_0c318881d4_z.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p{
+  //padding-left:660px;
+  //padding-bottom: 400px;
+  font-size:20px;
+}
+a{
+  //padding-left:660px;
+  font-size: 45px;
+  font-style: italic;
+  font-family: monospace;
+  text-align:right
+}
+
+a:link    {
+  color:#004C99;
+  text-decoration: none;
+}
+a:visited {
+  color:lightgrey;
+  text-decoration: none;
+}
+a:hover   {
+  color:#CCE5FF;
+  text-decoration: underline;
+}
+a:active  {
+  color:#004C99;
+}
