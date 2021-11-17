@@ -4,9 +4,37 @@
   left: 0px;
   z-index: -1;
 }
+h1{
+  font-family: monospace;
+}
+h3{
+  font-family: monospace;
+}
+.leaf{
+  padding-left: 30px;
+}
+.Roof{
+  padding-left: 30px;
+}
+.cloud{
+  padding-left: 30px;
+}
 
-
-
-#leafOpacity {
-  width: 20%;
+#leafOpacity{
+  width:18%;
+}
+#leafLength{
+  width:18%;
+}
+#leafWidth{
+  width:18%;
+}
+#leafColor{
+  width:18%;
+}
+#roof{
+  width:18%;
+}
+#roofColor{
+  width:18%;
 }

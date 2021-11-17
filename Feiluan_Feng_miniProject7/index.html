@@ -14,11 +14,40 @@
 
     <div id="canvasContainer"></div>
 
-    <input type="range" id="leafOpacity"><br>
-    <input type="range" id="roof">
+    <h1>Windmill</h1>
+    <h3>Leaf Control</h3>
+    <div class="leaf">
+      <input type="range" id="leafOpacity" value="40" min="0" max="80">
+      <label for="leafOpacity">Leaf Opacity</label><br>
 
+      <input type="range" id="leafLength">
+      <label for="leafLength">Leaf Length</label><br>
 
+      <input type="range" id="leafWidth">
+      <label for="leafWidth">Leaf Width</label><br>
 
+      <input type="range" id="leafColor" value="180" min="0" max="360">
+      <label for="leafColor">Leaf Color</label><br>
+      <input id="checkboxLeafColor" type="checkbox">
+      <label for="checkboxLeafColor">White Leaf</label>
+      <!--<input id="checkboxLeafColor2" type="checkbox">
+      <label for="checkboxLeafColor2">Black Leaf</label>-->
+    </div>
+
+    <h3>Roof Control</h3>
+    <div class="Roof">
+      <input type="range" id="roof" value="5" min="0" max="5">
+      <label for="roof">Roofs</label><br>
+
+      <input type="range" id="roofColor" value="2" min="1" max="3">
+      <label for="roofColor">Roof Color</label>
+    </div>
+
+    <h3>Cloud Control</h3>
+    <div class="cloud">
+      <button onclick="drawCloud()" type="button">Add Cloud</button>
+      <button onclick="deleteCloud()" type="button">Delete Cloud</button>
+    </div>
 
   </body>
 </html>
