@@ -1,0 +1,53 @@
+body{
+  background-image: url("image/Wallbg.png");
+  background-size: 50%;
+  z-index: -3;
+}
+#canvasContainer {
+  position:absolute;
+  top:200px;
+  right:50px;
+  z-index: -1;
+
+  //display:flex;
+  //justify-content: flex-end;
+  //align-items: flex-end;
+  /* top:100px;
+  right:100px; */
+}
+#canvasContainer2 {
+  position:absolute;
+  top:0px;
+  left:0px;
+  //z-index: -1;
+
+  display:flex;
+  //justify-content: flex-end;
+  //align-items: flex-end;
+  /* top:100px;
+  right:100px; */
+}
+#canvasContainer3 {
+  position:absolute;
+  top:600px;
+  left:45%;
+  z-index: -1;
+
+  display:flex;
+  justify-content: flex-start;
+  //align-items: flex-end;
+  /* top:100px;
+  right:100px; */
+}
+#canvasContainer4 {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: -0.5;
+
+  display:flex;
+  justify-content: flex-start;
+  //align-items: flex-end;
+  /* top:100px;
+  right:100px; */
+}
