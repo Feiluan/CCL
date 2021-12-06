@@ -103,7 +103,7 @@ function takePic() {
 function preload(){
   frame=loadImage("image/Frame.png");
   paint1=loadImage("image/Paint1.jpg");
-  paint2=loadImage("image/paint2.jpg");
+  paint2=loadImage("image/Paint2.jpg");
   paint3=loadImage("image/Paint3.jpg");
 }
 
