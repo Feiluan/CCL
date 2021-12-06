@@ -1,0 +1,76 @@
+body{
+  background-image: url("image/Paperbgg.png");
+  background-size: cover;
+  z-index: -3;
+}
+h1{
+  font-family: fantasy;
+  text-align: center;
+}
+/* .paint1 {
+  position: absolute;
+  top:40%;
+  left:0;
+} */
+.paint11 {
+  position: absolute;
+  top:40%;
+  left:0;
+}
+/* .paint2{
+  position:absolute;
+  right:0%;
+  top:30%;
+} */
+.paint21{
+  position: absolute;
+  right:0%;
+  top:30%;
+  z-index: 2;
+}
+/* .paint3{
+  position:absolute;
+  right:0;
+  top:70%;
+} */
+.paint31{
+  position:absolute;
+  right:0;
+  top:80%;
+  z-index: 2;
+}
+#canvasContainer{
+  z-index: 5;
+}
+.door1{
+  position:absolute;
+  right:0;
+  top:55%;
+  z-index: 2;
+}
+.door2{
+  position:absolute;
+  right:0;
+  top:5%;
+  z-index: 2;
+}
+.door3{
+  position:absolute;
+  top:80%;
+  left:0;
+  z-index: 2;
+}
+/* .button{
+  position: relative;
+  left:50%;
+  border: none;
+  padding: 15px 32px;
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor:pointer;
+  background-color: lightgrey;
+}
+.button:hover{
+  background-color: grey;
+} */

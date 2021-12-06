@@ -204,6 +204,7 @@ var myp5 = new p5(s3,"c3");
 
 var bg1=function(t){
   let w=t.windowWidth;
+  let hover=false;
   t.setup=function() {
     let canvas = t.createCanvas(t.windowWidth, 1200);
     canvas.parent("canvasContainer4");
@@ -217,10 +218,7 @@ var bg1=function(t){
     // t.ellipse(w*0.46,900,10);
     //t.ellipse(w*0.6,900,10);
     // //t.fill("red");
-    // t.ellipse(w-100,800,10);
-    // t.ellipse(w-260,740,10);
-    // t.ellipse(w-250,830,10);
-    // t.ellipse(w-350,950,10);
+
     // //t.ellipse(w-250,880,10);
 
     t.fill(163,121,81,20);
@@ -235,8 +233,12 @@ var bg1=function(t){
     // t.curve(w-350,950, w-350,950, w*0.46,900, w*0.35,400);
     t.push();
     t.image(t.img1,w-740,645,800,350);
-    t.image(t.img2,w/2-150,0,400,300);
+
+
     t.pop();
+
+
+
 
 
 
@@ -256,6 +258,46 @@ var bg1=function(t){
     t.img2=t.loadImage("image/Welcome.png");
     //p3.img2=p3.loadImage("image/Door4Open.png");
   }
-
 }
 var myp5 = new p5(bg1,"t");
+
+
+var bg2=function(tt){
+  let w=tt.windowWidth;
+  let hover=false;
+  tt.setup=function() {
+    let canvas = tt.createCanvas(tt.windowWidth, 1200);
+    canvas.parent("canvasContainer5");
+    tt.background(163,121,81,20);
+  }
+  tt.draw=function(){
+    tt.background(163,121,81,0);
+    // tt.ellipse(w/2-70,110,10);
+    // tt.ellipse(w/2+170,110,10);
+    // tt.ellipse(w/2-70,220,10);
+    // tt.ellipse(w/2+170,220,10);
+    tt.ellipse(w/2+50,20,10);
+
+    if(tt.mouseX>w/2-70 && tt.mouseX<w/2+170 && tt.mouseY>110 && tt.mouseY<220){
+      hover=true;
+    }
+    else{
+      hover=false;
+    }
+    if(hover){
+      tt.push();
+      tt.translate(w/2+50,20);
+      tt.rotate(tt.radians(tt.sin(tt.frameCount/10) * 2));
+      tt.image(tt.img,w/2-150-w/2-50,0-20,400,300);
+      tt.pop();
+    }
+    else{
+      tt.image(tt.img,w/2-150,0,400,300);
+    }
+  }
+
+  tt.preload=function(){
+    tt.img=tt.loadImage("image/Welcome.png");
+  }
+}
+var myp5 = new p5(bg2,"tt");

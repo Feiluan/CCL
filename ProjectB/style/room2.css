@@ -13,4 +13,23 @@ body{
 .div2{
   position: absolute;
   top:30px;
+  left:500px;
+}
+#canvasContainer2{
+  position:absolute;
+  top:250px;
+  left:1050px;
+  z-index:-1;
+}
+#canvasContainer3{
+  position:absolute;
+  top:60px;
+  left:1050px;
+  //z-index:-1;
+}
+#canvasContainer4{
+  position:absolute;
+  top:110px;
+  left:1180px;
+  //z-index:-1;
 }

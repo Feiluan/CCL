@@ -66,7 +66,7 @@ function preload(){
 
 function mousePressed(){
   if(hover==1){
-    console.log(enter);
+    //console.log(1);
     window.location = 'menu.html';
   }
 
