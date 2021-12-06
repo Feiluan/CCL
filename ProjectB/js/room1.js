@@ -383,8 +383,8 @@ var room1Art = function(a){
 
   a.preload=function(){
     a.paint1=a.loadImage("image/Paint1.jpg");
-    a.paint11=a.loadImage("image/Paint11.jpg");
-    a.paint12=a.loadImage("image/Paint12.jpg");
+    a.paint11=a.loadImage("image/Paint11.JPG");
+    a.paint12=a.loadImage("image/Paint12.JPG");
     a.paint2=a.loadImage("image/Paint2.jpg");
     a.paint3=a.loadImage("image/Paint3.jpg");
     a.angry=a.loadImage("image/Angry.png");
