@@ -63,9 +63,14 @@ function draw(){
 
   if(mouseIsPressed){
     if(x>w/2-300 && x<w/2+300 && y>h/2-50-350 && y<h/2-50+270){
+      push();
       noStroke();
       fill(r,g,b);
-      ellipse(x,y,5);
+      stroke(r,g,b);
+      strokeWeight(5);
+      line(pmouseX,pmouseY,x,y);
+      //ellipse(x,y,5);
+      pop();
     }
   }
 
