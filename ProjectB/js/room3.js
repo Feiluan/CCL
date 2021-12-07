@@ -10,7 +10,6 @@ function setup() {
 }
 
 
-
 let getcolor=false;
 let r=0,g=0,b=0;
 let paints=[];
@@ -22,9 +21,9 @@ function draw(){
 
   paints[0]=new paint(100,h/3,0);
   paints[0].display();
-  paints[1]=new paint(w-150,h/4-10,1);
+  paints[1]=new paint(w-150,h/4+20,1);
   paints[1].display();
-  paints[2]=new paint(w-150,h/4*3,2);
+  paints[2]=new paint(w-150,h/6*5,2);
   paints[2].display();
   imageMode(CENTER);
 

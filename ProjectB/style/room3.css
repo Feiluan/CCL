@@ -51,7 +51,7 @@ h1{
 .door2{
   position:absolute;
   right:0;
-  top:5%;
+  top:0;
   z-index: 2;
 }
 .door3{
